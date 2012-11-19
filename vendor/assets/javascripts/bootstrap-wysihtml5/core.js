@@ -273,7 +273,7 @@
                 self.editor.currentView.element.focus();
                 self.editor.composer.commands.exec("createLink", {
                     href: url,
-                    target: "_blank",
+                    // target: "_blank",
                     rel: "nofollow"
                 });
             };
@@ -403,7 +403,7 @@
                 },
                 "a":  {
                     set_attributes: {
-                        target: "_blank",
+                        // target: "_blank",
                         rel:    "nofollow"
                     },
                     check_attributes: {
